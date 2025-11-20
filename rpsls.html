@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rpsls.css">
+</head>
+<body>
+    <h1>Rock-paper-scissors-lizard-spock</h1>
+    <div class="rule">
+        <p>Rule:  p > r > l > sp > s > l > p > sp > r > s</p>
+    </div>
+
+    <div class="btn-container">
+        <button class="btn" onclick="playGame('rock')">🪨</button>
+        <button class="btn" onclick="playGame('paper')">📃</button>
+        <button class="btn" onclick="playGame('scissors')">✂️</button>
+        <button class="btn" onclick="playGame('lizard')">🦎</button>
+        <button class="btn" onclick="playGame('spock')">🖖</button>
+    </div>
+
+    <div class="choices">
+        <p id="playerChoiceDisplay">Player: </p>
+        <p id="computerChoiceDisplay">Computer: </p>
+    </div>
+
+    <div class="result" id="resultDisplay">
+
+    </div>
+    <div id="verdict"></div>
+    
+    <script src="rpsls.js"></script>
+</body>
+</html>
