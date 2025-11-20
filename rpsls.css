@@ -16,6 +16,7 @@ h1{
     border: 2px solid turquoise;
     padding: 2rem;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .btn:hover{
